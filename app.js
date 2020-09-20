@@ -312,7 +312,7 @@ window.addEventListener('load', () => {
 					tempeartureSection.addEventListener('click', ()=>{
 						if(temperatureSpan.textContent === "F"){
 							temperatureSpan.textContent = "C";
-							temperatureDegree.textContent = temp - 273.15;
+							temperatureDegree.textContent = (temp - 273.15).toFixed(0);
 						} else {
 							temperatureSpan.textContent = "F";
 							temperatureDegree.textContent = ((temp - 273.15) * (9/5) + 32).toFixed(0);
