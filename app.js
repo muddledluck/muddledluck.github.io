@@ -332,6 +332,3 @@ window.addEventListener('load', () => {
 		return skycons.set(iconID, Skycons[currentIcon]);
 	}
 });
-
-//https://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=29140e7afe92378316222f389d6738b7
-//https://api.openweathermap.org/data/2.5/weather?lat=23&lon=77&appid=29140e7afe92378316222f389d6738b7
